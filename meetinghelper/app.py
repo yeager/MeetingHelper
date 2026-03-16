@@ -70,11 +70,11 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         box.set_margin_end(24)
 
         # Rubrik
-        title = Gtk.Label(label=_("Select mötestyp")
+        title = Gtk.Label(label=_("Select meeting type")
         title.add_css_class("title-1")
         box.append(title)
 
-        desc = Gtk.Label(label=_("Tryck på den typ av möte du ska ha")
+        desc = Gtk.Label(label=_("Click on the type of meeting you want to have")
         desc.add_css_class("dim-label")
         box.append(desc)
 
@@ -138,7 +138,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         box.set_margin_end(16)
 
         # Tillbaka-knapp
-        back_btn = Gtk.Button(label=_("← Tillbaka till mallväljaren")
+        back_btn = Gtk.Button(label=_("← Back to the template selector")
         back_btn.set_halign(Gtk.Align.START)
         back_btn.connect("clicked", lambda b: self.stack.set_visible_child_name("chooser"))
         box.append(back_btn)
@@ -164,7 +164,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         # Deltagarfält
         box.append(self._section_label("👋 Deltagare"))
         self.deltagare_entry = Gtk.Entry()
-        self.deltagare_entry.set_placeholder_text(_("Skriv namn på deltagare, separera med komma")
+        self.deltagare_entry.set_placeholder_text(_("Write the name of the participant, separated by a comma")
         box.append(self.deltagare_entry)
 
         # Separator

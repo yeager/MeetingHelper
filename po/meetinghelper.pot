@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the MeetingHelper package.
+# This file is distributed under the same license as the meetinghelper package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MeetingHelper 1.0\n"
+"Project-Id-Version: meetinghelper 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,19 +26,19 @@ msgid "📂 Open"
 msgstr ""
 
 #: meetinghelper/app.py:73
-msgid "Select mötestyp"
+msgid "Select meeting type"
 msgstr ""
 
 #: meetinghelper/app.py:77
-msgid "Tryck på den typ av möte du ska ha"
+msgid "Click on the type of meeting you want to have"
 msgstr ""
 
 #: meetinghelper/app.py:141
-msgid "← Tillbaka till mallväljaren"
+msgid "← Back to the template selector"
 msgstr ""
 
 #: meetinghelper/app.py:167
-msgid "Skriv namn på deltagare, separera med komma"
+msgid "Write the name of the participant, separated by a comma"
 msgstr ""
 
 #: meetinghelper/app.py:199
