@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MeetingHelper
+Comment=Visuellt mötesprotokoll för LSS/vårdplanering
+Exec=meetinghelper
+Icon=x-office-calendar
+Terminal=false
+Type=Application
+Categories=Office;ProjectManagement;Accessibility;
+Keywords=möte;protokoll;LSS;vårdplanering;
