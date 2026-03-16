@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the MeetingHelper package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: MeetingHelper 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:31+0100\n"
+"POT-Creation-Date: 2026-03-16 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +17,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Anteckningsfält
-#: /tmp/MeetingHelper/meetinghelper/app.py:199
-msgid "Anteckningar:"
-msgstr ""
-
-#: /tmp/MeetingHelper/meetinghelper/app.py:167
-msgid "Skriv namn på deltagare, separera med komma"
-msgstr ""
-
-#: /tmp/MeetingHelper/meetinghelper/app.py:77
-msgid "Tryck på den typ av möte du ska ha"
-msgstr ""
-
-#. Rubrik
-#: /tmp/MeetingHelper/meetinghelper/app.py:73
-msgid "Välj mötestyp"
-msgstr ""
-
-#. Tillbaka-knapp
-#: /tmp/MeetingHelper/meetinghelper/app.py:141
-msgid "← Tillbaka till mallväljaren"
-msgstr ""
-
-#. Exportknapp i header
-#: /tmp/MeetingHelper/meetinghelper/app.py:46
+#: meetinghelper/app.py:46
 msgid "💾 Exportera"
 msgstr ""
 
-#. Ladda-knapp i header
-#: /tmp/MeetingHelper/meetinghelper/app.py:52
-msgid "📂 Öppna"
+#: meetinghelper/app.py:52
+msgid "📂 Open"
+msgstr ""
+
+#: meetinghelper/app.py:73
+msgid "Select mötestyp"
+msgstr ""
+
+#: meetinghelper/app.py:77
+msgid "Tryck på den typ av möte du ska ha"
+msgstr ""
+
+#: meetinghelper/app.py:141
+msgid "← Tillbaka till mallväljaren"
+msgstr ""
+
+#: meetinghelper/app.py:167
+msgid "Skriv namn på deltagare, separera med komma"
+msgstr ""
+
+#: meetinghelper/app.py:199
+msgid "Anteckningar:"
 msgstr ""

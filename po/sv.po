@@ -1,0 +1,30 @@
+# Swedish translation
+# Copyright (C) 2024
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Skriv namn på deltagare, separera med komma"
+msgstr "Skriv namn på deltagare, separera med komma"
+
+msgid "Tryck på den typ av möte du ska ha"
+msgstr "Tryck på den typ av möte du ska ha"
+
+msgid "Välj mötestyp"
+msgstr "Select mötestyp"
+
+msgid "← Tillbaka till mallväljaren"
+msgstr "← Tillbaka till mallväljaren"
+
+msgid "💾 Exportera"
+msgstr "💾 Exportera"
+
+msgid "📂 Öppna"
+msgstr "📂 Open"
+

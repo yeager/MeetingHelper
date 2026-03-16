@@ -49,7 +49,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         header.pack_end(export_btn)
 
         # Ladda-knapp i header
-        load_btn = Gtk.Button(label=_("📂 Öppna")
+        load_btn = Gtk.Button(label=_("📂 Open")
         load_btn.connect("clicked", self.on_load)
         header.pack_end(load_btn)
 
@@ -70,7 +70,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         box.set_margin_end(24)
 
         # Rubrik
-        title = Gtk.Label(label=_("Välj mötestyp")
+        title = Gtk.Label(label=_("Select mötestyp")
         title.add_css_class("title-1")
         box.append(title)
 
