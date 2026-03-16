@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=MeetingHelper
+Name[sv]=Möteshjälp
+Comment=Meeting structure and timer
+Comment[sv]=Mötesstruktur och timer
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m meetinghelper
+Icon=meetinghelper
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
