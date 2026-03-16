@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 
 import gi
+from meetinghelper.i18n import _
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -42,13 +43,13 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         self.main_box.append(header)
 
         # Exportknapp i header
-        export_btn = Gtk.Button(label="💾 Exportera")
+        export_btn = Gtk.Button(label=_("💾 Exportera")
         export_btn.add_css_class("suggested-action")
         export_btn.connect("clicked", self.on_export)
         header.pack_end(export_btn)
 
         # Ladda-knapp i header
-        load_btn = Gtk.Button(label="📂 Öppna")
+        load_btn = Gtk.Button(label=_("📂 Öppna")
         load_btn.connect("clicked", self.on_load)
         header.pack_end(load_btn)
 
@@ -69,11 +70,11 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         box.set_margin_end(24)
 
         # Rubrik
-        title = Gtk.Label(label="Välj mötestyp")
+        title = Gtk.Label(label=_("Välj mötestyp")
         title.add_css_class("title-1")
         box.append(title)
 
-        desc = Gtk.Label(label="Tryck på den typ av möte du ska ha")
+        desc = Gtk.Label(label=_("Tryck på den typ av möte du ska ha")
         desc.add_css_class("dim-label")
         box.append(desc)
 
@@ -137,7 +138,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         box.set_margin_end(16)
 
         # Tillbaka-knapp
-        back_btn = Gtk.Button(label="← Tillbaka till mallväljaren")
+        back_btn = Gtk.Button(label=_("← Tillbaka till mallväljaren")
         back_btn.set_halign(Gtk.Align.START)
         back_btn.connect("clicked", lambda b: self.stack.set_visible_child_name("chooser"))
         box.append(back_btn)
@@ -163,7 +164,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
         # Deltagarfält
         box.append(self._section_label("👋 Deltagare"))
         self.deltagare_entry = Gtk.Entry()
-        self.deltagare_entry.set_placeholder_text("Skriv namn på deltagare, separera med komma")
+        self.deltagare_entry.set_placeholder_text(_("Skriv namn på deltagare, separera med komma")
         box.append(self.deltagare_entry)
 
         # Separator
@@ -195,7 +196,7 @@ class MeetingHelperWindow(Adw.ApplicationWindow):
             punkt_box.append(check_row)
 
             # Anteckningsfält
-            note_label = Gtk.Label(label="Anteckningar:", xalign=0)
+            note_label = Gtk.Label(label=_("Anteckningar:", xalign=0)
             note_label.add_css_class("dim-label")
             punkt_box.append(note_label)
 

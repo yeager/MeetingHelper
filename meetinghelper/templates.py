@@ -1,3 +1,4 @@
+from meetinghelper.i18n import _
 """Fördefinierade mötesmallar för LSS och vårdplanering."""
 
 TEMPLATES = {
